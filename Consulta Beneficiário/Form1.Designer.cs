@@ -42,27 +42,29 @@
             this.butConsult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.butConsult.Name = "butConsult";
             this.butConsult.Size = new System.Drawing.Size(180, 98);
-            this.butConsult.TabIndex = 0;
+            this.butConsult.TabIndex = 1;
             this.butConsult.Text = "Consulta Beneficiário";
             this.butConsult.UseVisualStyleBackColor = true;
+            this.butConsult.Click += new System.EventHandler(this.butConsult_Click);
             // 
             // butCadastro
             // 
-            this.butCadastro.Location = new System.Drawing.Point(397, 56);
+            this.butCadastro.Location = new System.Drawing.Point(421, 56);
             this.butCadastro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.butCadastro.Name = "butCadastro";
             this.butCadastro.Size = new System.Drawing.Size(180, 98);
-            this.butCadastro.TabIndex = 1;
+            this.butCadastro.TabIndex = 2;
             this.butCadastro.Text = "Cadastro Beneficiário";
             this.butCadastro.UseVisualStyleBackColor = true;
+            this.butCadastro.Click += new System.EventHandler(this.butCadastro_Click);
             // 
             // butClose
             // 
-            this.butClose.Location = new System.Drawing.Point(219, 292);
+            this.butClose.Location = new System.Drawing.Point(237, 298);
             this.butClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.butClose.Name = "butClose";
             this.butClose.Size = new System.Drawing.Size(128, 52);
-            this.butClose.TabIndex = 2;
+            this.butClose.TabIndex = 3;
             this.butClose.Text = "Fechar";
             this.butClose.UseVisualStyleBackColor = true;
             this.butClose.Click += new System.EventHandler(this.butClose_Click);
@@ -70,7 +72,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(52, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(53, 47);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(493, 276);

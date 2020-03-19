@@ -26,5 +26,17 @@ namespace Consulta_Beneficiário
         {
             this.Close();
         }
+
+        private void butConsult_Click(object sender, EventArgs e)
+        {
+            Form3 FormCadastro = new Form3();
+            FormCadastro.ShowDialog();
+        }
+
+        private void butCadastro_Click(object sender, EventArgs e)
+        {
+            Form2 FormConsult = new Form2();
+            FormConsult.ShowDialog();
+        }
     }
 }
