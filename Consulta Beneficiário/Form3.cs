@@ -50,5 +50,19 @@ namespace Consulta_Beneficiário
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'beneficiáriosDataSet.Pagamentos'. Você pode movê-la ou removê-la conforme necessário.
+            this.pagamentosTableAdapter.Fill(this.beneficiáriosDataSet.Pagamentos);
+            // TODO: esta linha de código carrega dados na tabela 'beneficiáriosDataSet.Beneficiários'. Você pode movê-la ou removê-la conforme necessário.
+            this.beneficiáriosTableAdapter.Fill(this.beneficiáriosDataSet.Beneficiários);
+
+        }
     }
 }

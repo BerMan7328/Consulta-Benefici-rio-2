@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Consulta_Beneficiário
 {
-    public class ClassFun
+    public class Beneficiario
     {
         public string TxtNome { get; set; }
         public string TxtEnd { get; set; }

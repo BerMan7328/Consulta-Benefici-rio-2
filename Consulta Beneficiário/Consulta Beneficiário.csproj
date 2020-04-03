@@ -77,6 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BeneficiáriosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BeneficiáriosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ClassFun.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +130,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="BeneficiáriosDataSet.xsc">
+      <DependentUpon>BeneficiáriosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BeneficiáriosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BeneficiáriosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BeneficiáriosDataSet.xss">
+      <DependentUpon>BeneficiáriosDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Consulta Beneficiário_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -140,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="14fdfe_fdaa8981e3cc49d58da6a96c2402f4a7_mv2.ico" />
+    <Content Include="Beneficiários.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
