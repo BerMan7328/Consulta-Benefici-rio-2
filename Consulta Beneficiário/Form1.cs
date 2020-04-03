@@ -22,12 +22,12 @@ namespace Consulta_Beneficiário
 
         }
 
-        private void butClose_Click(object sender, EventArgs e)
+        private void butClose_Click(object sender, EventArgs e) //Botão "Fechar" do Menu Principal
         {
             this.Close();
         }
 
-        private void butConsult_Click(object sender, EventArgs e)
+        private void butConsult_Click(object sender, EventArgs e)//Botão "Consulta Beneficiário" do Menu Principal
         {
             Form3 FormCadastro = new Form3();
             FormCadastro.ShowDialog();
@@ -35,7 +35,7 @@ namespace Consulta_Beneficiário
 
         private void butCadastro_Click(object sender, EventArgs e)
         {
-            Form2 FormConsult = new Form2();
+            Form2 FormConsult = new Form2();//Botão "Cadastrar Beneficiário" do Menu Principal
             FormConsult.ShowDialog();
         }
     }

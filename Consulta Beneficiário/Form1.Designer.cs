@@ -38,10 +38,10 @@
             // 
             // butConsult
             // 
-            this.butConsult.Location = new System.Drawing.Point(20, 56);
-            this.butConsult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butConsult.Location = new System.Drawing.Point(27, 69);
+            this.butConsult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butConsult.Name = "butConsult";
-            this.butConsult.Size = new System.Drawing.Size(180, 98);
+            this.butConsult.Size = new System.Drawing.Size(240, 121);
             this.butConsult.TabIndex = 1;
             this.butConsult.Text = "Consulta Beneficiário";
             this.butConsult.UseVisualStyleBackColor = true;
@@ -49,10 +49,10 @@
             // 
             // butCadastro
             // 
-            this.butCadastro.Location = new System.Drawing.Point(421, 56);
-            this.butCadastro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butCadastro.Location = new System.Drawing.Point(561, 58);
+            this.butCadastro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butCadastro.Name = "butCadastro";
-            this.butCadastro.Size = new System.Drawing.Size(180, 98);
+            this.butCadastro.Size = new System.Drawing.Size(240, 121);
             this.butCadastro.TabIndex = 2;
             this.butCadastro.Text = "Cadastro Beneficiário";
             this.butCadastro.UseVisualStyleBackColor = true;
@@ -60,10 +60,10 @@
             // 
             // butClose
             // 
-            this.butClose.Location = new System.Drawing.Point(237, 298);
-            this.butClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butClose.Location = new System.Drawing.Point(316, 367);
+            this.butClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butClose.Name = "butClose";
-            this.butClose.Size = new System.Drawing.Size(128, 52);
+            this.butClose.Size = new System.Drawing.Size(171, 64);
             this.butClose.TabIndex = 3;
             this.butClose.Text = "Fechar";
             this.butClose.UseVisualStyleBackColor = true;
@@ -72,25 +72,25 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(53, 47);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(71, 58);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(493, 276);
+            this.pictureBox1.Size = new System.Drawing.Size(657, 340);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // Init
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 374);
+            this.ClientSize = new System.Drawing.Size(831, 460);
             this.Controls.Add(this.butClose);
             this.Controls.Add(this.butCadastro);
             this.Controls.Add(this.butConsult);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Init";
             this.Text = "Plano Certo";
             this.Load += new System.EventHandler(this.Form1_Load);
